@@ -56,7 +56,7 @@ Create a class BasicCache that inherits from BaseCaching and is a caching system
   * If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 ```bash
-guillaume@ubuntu:~/0x01$ cat 0-main.py
+ cat 0-main.py
 # !/usr/bin/python3
 """ 0-main """
 BasicCache = __import__('0-basic_cache').BasicCache
@@ -78,7 +78,7 @@ my_cache.put("A", "Street")
 my_cache.print_cache()
 print(my_cache.get("A"))
 
-guillaume@ubuntu:~/0x01$ ./0-main.py
+ ./0-main.py
 Current cache:
 Current cache:
 A: Hello
@@ -99,7 +99,7 @@ C: Holberton
 D: School
 E: Battery
 Street
-guillaume@ubuntu:~/0x01$
+
 ```
 
 File: 0-basic_cache.py
@@ -121,7 +121,7 @@ Create a class FIFOCache that inherits from BaseCaching and is a caching system:
   * If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 ```bash
-guillaume@ubuntu:~/0x01$ cat 1-main.py
+ cat 1-main.py
 # !/usr/bin/python3
 """ 1-main """
 FIFOCache = __import__('1-fifo_cache').FIFOCache
@@ -139,7 +139,7 @@ my_cache.print_cache()
 my_cache.put("F", "Mission")
 my_cache.print_cache()
 
-guillaume@ubuntu:~/0x01$ ./1-main.py
+ ./1-main.py
 Current cache:
 A: Hello
 B: World
@@ -162,7 +162,7 @@ C: Street
 D: School
 E: Battery
 F: Mission
-guillaume@ubuntu:~/0x01$
+
 ```
 
 File: 1-fifo_cache.py
@@ -184,7 +184,7 @@ Create a class LIFOCache that inherits from BaseCaching and is a caching system:
   * If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 ```bash
-guillaume@ubuntu:~/0x01$ cat 2-main.py
+ cat 2-main.py
 # !/usr/bin/python3
 """ 2-main """
 LIFOCache = __import__('2-lifo_cache').LIFOCache
@@ -204,7 +204,7 @@ my_cache.print_cache()
 my_cache.put("G", "San Francisco")
 my_cache.print_cache()
 
-guillaume@ubuntu:~/0x01$ ./2-main.py
+ ./2-main.py
 Current cache:
 A: Hello
 B: World
@@ -233,7 +233,7 @@ A: Hello
 B: World
 E: Battery
 G: San Francisco
-guillaume@ubuntu:~/0x01$
+
 ```
 
 File: 2-lifo_cache.py
@@ -255,7 +255,7 @@ Create a class LRUCache that inherits from BaseCaching and is a caching system:
   * If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 ```bash
-guillaume@ubuntu:~/0x01$ cat 3-main.py
+ cat 3-main.py
 # !/usr/bin/python3
 """ 3-main """
 LRUCache = __import__('3-lru_cache').LRUCache
@@ -287,7 +287,7 @@ my_cache.print_cache()
 my_cache.put("K", "K")
 my_cache.print_cache()
 
-guillaume@ubuntu:~/0x01$ ./3-main.py
+ ./3-main.py
 Current cache:
 A: Hello
 B: World
@@ -344,7 +344,7 @@ H: H
 I: I
 J: J
 K: K
-guillaume@ubuntu:~/0x01$
+
 ```
 
 File: 3-lru_cache.py
@@ -366,7 +366,7 @@ Create a class MRUCache that inherits from BaseCaching and is a caching system:
   * If key is None or if the key doesn’t exist in self.cache_data, return None.
 
 ```bash
-guillaume@ubuntu:~/0x01$ cat 4-main.py
+ cat 4-main.py
 # !/usr/bin/python3
 """ 4-main """
 MRUCache = __import__('4-mru_cache').MRUCache
@@ -398,7 +398,7 @@ my_cache.print_cache()
 my_cache.put("K", "K")
 my_cache.print_cache()
 
-guillaume@ubuntu:~/0x01$ ./4-main.py
+ ./4-main.py
 Current cache:
 A: Hello
 B: World
@@ -455,7 +455,7 @@ A: Hello
 D: School
 E: Battery
 K: K
-guillaume@ubuntu:~/0x01$
+
 ```
 
 File: 4-mru_cache.py
